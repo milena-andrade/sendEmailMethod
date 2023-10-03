@@ -1,9 +1,9 @@
 # sendEmailMethod
 fornece uma maneira simples de enviar e-mails
 
-1. public class SendEmail {: Isso define uma classe chamada SendEmail.
+1. `public class SendEmail {`: Isso define uma classe chamada `SendEmail`.
 
-2. public static void sendEmailMethod(String toAddress, String subject, String body): Esta é uma função estática chamada `sendEmailMethod` que aceita três parâmetros: `toAddress` (o endereço de e-mail de destino), `subject` (o assunto do e-mail) e `body` (o corpo do e-mail). Essa função é responsável por enviar um e-mail.
+2. `public static void sendEmailMethod(String toAddress, String subject, String body)`: Esta é uma função estática chamada `sendEmailMethod` que aceita três parâmetros: `toAddress` (o endereço de e-mail de destino), `subject` (o assunto do e-mail) e `body` (o corpo do e-mail). Essa função é responsável por enviar um e-mail.
 
 3. `Messaging.SingleEmailMessage email = new Messaging.SingleEmailMessage();`: Aqui, uma instância da classe `Messaging.SingleEmailMessage` é criada. Esta é uma classe que normalmente é usada para construir e configurar mensagens de e-mail antes de enviá-las.
 
